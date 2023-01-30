@@ -1,6 +1,21 @@
 /*reset rulez*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
