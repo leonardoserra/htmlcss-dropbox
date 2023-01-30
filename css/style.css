@@ -55,4 +55,19 @@ section{
     width: 70%;
 }
 
+.jumbotron{
+    display:flex;
+    flex-wrap: wrap;
+    padding:10px;
+}
+
+.bigTitle{
+    width: 100%;
+    font-size: 40px;
+}
+
+.twoColumns{
+    width: 50%;
+    padding: 20px;
+}
 /*fine main*/

@@ -21,8 +21,21 @@ main.debug{
     background-color: rgb(21, 255, 0);
 }
 
-main section.bigContainer{
+main div.bigContainer{
     height: 500px;
     border: 1px solid blue;
 }
+
+.bigTitle{
+    height: 200px;
+    border: 1px solid rgb(234, 0, 255);
+    background-color: cadetblue;
+}
+
+ .twoColumns{
+    height: 200px;
+    border: 1px solid rgb(234, 0, 255);
+    background-color: cadetblue;
+}
+
 /*fine main*/
