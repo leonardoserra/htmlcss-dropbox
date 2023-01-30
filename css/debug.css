@@ -1,4 +1,7 @@
 /*debug rulez*/
+*{
+    text-align: center;
+}
 
 /*header*/
 header {
@@ -16,9 +19,6 @@ nav{
 
 
 /*main*/
-*{
-    text-align: center;
-}
 main{
     background-color: rgb(23, 131, 83);
 }
@@ -52,13 +52,17 @@ section{
 }
 
 .oneRow{
-    border: 1px groove rgb(30, 0, 255);
+    border: 1px dashed rgb(30, 0, 255);
     height: 100px;
     background-color: brown;
 }
 
 .bigCube{
-    border: 5px groove rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
     background-color: rgb(42, 165, 89);
+}
+
+.smallCube{
+    border: 1px solid white;
 }
 /*fine main*/
