@@ -6,6 +6,8 @@
 }
 
 body{
+    width: 100vw;
+    overflow-x: hidden;
     position: relative;
     font-family: 'Open Sans', sans-serif;
 }
@@ -85,7 +87,7 @@ article{
 }
 
 .responsiveCube{
-    width: 100vw;
+    width: 100%;
     flex-wrap: nowrap;
     justify-content: center;
 }
