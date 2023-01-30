@@ -119,12 +119,17 @@ section h2.bottomBorder, .questionAnswer.bottomBorder{
 
 /*inizio footer*/
 
-footer nav{
-    display: flex;
+footer div{
+    padding-top:50px;
+    width: 100%;
+    display:flex;
     justify-content: space-between;
-    padding-top: 30px;
 }
 
+footer .bigContainer > ul{
+    width: calc(100% / 5);
+    list-style: none;
+}
 
 
 

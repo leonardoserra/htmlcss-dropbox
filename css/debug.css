@@ -76,7 +76,11 @@ footer{
     background-color: pink;
 }
 
-footer nav{
-    background-color: orange;
-    height: 300px;
+footer div{
+    border: 1px solid white;
+}
+
+footer div > ul{
+    border: 1px solid white;
+    background-color: blueviolet;
 }
