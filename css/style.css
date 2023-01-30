@@ -87,18 +87,18 @@ article{
 .responsiveCube{
     width: 100vw;
     flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .bigCube{
-    max-width: calc(100% / 3);
+    width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
     height: 400px;
 }
 
 .smallCube{
-    width: 50%;
-    max-height: 50%;
+    min-width: 50%;
 }
 
 .scroll{
