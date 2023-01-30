@@ -116,3 +116,21 @@ section h2.bottomBorder, .questionAnswer.bottomBorder{
 
 
 /*fine main*/
+
+/*inizio footer*/
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+/*fine footer*/

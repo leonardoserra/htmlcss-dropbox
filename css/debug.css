@@ -67,3 +67,16 @@ section{
     border: 1px solid white;
 }
 /*fine main*/
+
+
+/*inizio footer*/
+
+footer{
+    height: 500px;
+    background-color: pink;
+}
+
+footer nav{
+    background-color: orange;
+    height: 300px;
+}
