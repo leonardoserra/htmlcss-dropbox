@@ -72,15 +72,19 @@ section{
 /*inizio footer*/
 
 footer{
-    height: 500px;
+    /* height: 500px; */
     background-color: pink;
 }
 
-footer div{
+footer nav{
     border: 1px solid white;
 }
 
-footer div > ul{
+footer nav > ul{
     border: 1px solid white;
     background-color: blueviolet;
+}
+div.footerBottom{
+    line-height: 3em;
+    border: 1px solid greenyellow;
 }

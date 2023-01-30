@@ -119,7 +119,7 @@ section h2.bottomBorder, .questionAnswer.bottomBorder{
 
 /*inizio footer*/
 
-footer div{
+footer nav{
     padding-top:50px;
     width: 100%;
     display:flex;
