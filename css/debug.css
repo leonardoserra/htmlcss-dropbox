@@ -20,12 +20,17 @@ nav{
     text-align: center;
 }
 main{
-    background-color: rgb(21, 255, 0);
+    background-color: rgb(23, 131, 83);
 }
 
 main div.bigContainer{
     height: 500px;
     border: 1px solid blue;
+}
+
+section{
+    background-color: cornflowerblue;
+    border: 1px solid rgb(234, 0, 255);
 }
 
 .bigTitle{
@@ -50,5 +55,10 @@ main div.bigContainer{
     border: 1px groove rgb(30, 0, 255);
     height: 100px;
     background-color: brown;
+}
+
+.bigCube{
+    border: 5px groove rgb(255, 0, 0);
+    background-color: rgb(42, 165, 89);
 }
 /*fine main*/

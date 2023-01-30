@@ -45,7 +45,7 @@ main{
 section{
     display: flex;
     flex-wrap: wrap;
-    padding:10px;
+    /* padding:10px; */
 }
 
 .bigContainer{
@@ -81,6 +81,18 @@ section{
 article{
     display:flex;
     width: 100%;
+    flex-wrap: wrap;
+}
+
+.responsiveCube{
+    width: 100vw;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.bigCube{
+    width: (100vw / 3);
+    display: flex;
     flex-wrap: wrap;
 }
 
