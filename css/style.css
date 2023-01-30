@@ -53,6 +53,7 @@ section{
 
 .smallContainer{
     width: 70%;
+    margin: auto;
 }
 
 .jumbotron{
@@ -62,12 +63,28 @@ section{
 }
 
 .bigTitle{
-    width: 100%;
     font-size: 40px;
 }
+
+.oneRow{
+    width: 100%
+} 
 
 .twoColumns{
     width: 50%;
     padding: 20px;
 }
+
+.threeColumns{
+    width: calc(100% / 3);
+    padding: 20px;
+}
+
+
+article{
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
 /*fine main*/
