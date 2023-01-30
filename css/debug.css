@@ -1,4 +1,6 @@
 /*debug rulez*/
+
+/*header*/
 header.debug {
     height: 80px;
     background-color: red;
@@ -7,7 +9,20 @@ header.debug {
 
 nav.debug{
     width: 200px;
-    
     background-color: blue;
     border: 1px solid green;
 }
+/*fine header*/
+
+
+/*main*/
+
+main.debug{
+    background-color: rgb(21, 255, 0);
+}
+
+main section.bigContainer{
+    height: 500px;
+    border: 1px solid blue;
+}
+/*fine main*/
