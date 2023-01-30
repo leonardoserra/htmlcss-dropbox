@@ -29,9 +29,9 @@ header{
     /* align-items: center; */
 }
 
-.btn{
-    /*crea general rule per btn*/
-}
+/* .btn{
+    crea general rule per btn
+} */
 
 /*fine header*/
 
@@ -104,4 +104,15 @@ article{
 .scroll{
     overflow: auto;
 }
+
+
+.question, .answer{
+    padding: 10px;
+}
+
+section h2.bottomBorder, .questionAnswer.bottomBorder{
+    border-bottom: 3px dotted black;
+}
+
+
 /*fine main*/
