@@ -44,6 +44,8 @@ main{
 
 section{
     display: flex;
+    flex-wrap: wrap;
+    padding:10px;
 }
 
 .bigContainer{
@@ -56,11 +58,6 @@ section{
     margin: auto;
 }
 
-.jumbotron{
-    display:flex;
-    flex-wrap: wrap;
-    padding:10px;
-}
 
 .bigTitle{
     font-size: 40px;
