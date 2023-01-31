@@ -89,9 +89,6 @@ body{
 /*header*/
 
 header{
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
     position: fixed;
     width: 100%;
     top: 0;
@@ -100,7 +97,6 @@ header{
 }
 
 .navBar{
-    display: flex;
     justify-content: center;
     /* align-items: center; */
 }
@@ -118,12 +114,6 @@ main{
     padding-top: 100px;
 }
 
-section{
-    display: flex;
-    flex-wrap: wrap;
-    /* padding:10px; */
-}
-
 .bigContainer{
     width: 80%;
     margin: auto;
@@ -139,9 +129,6 @@ section{
     font-size: 40px;
 }
 
-.oneRow{
-    width: 100%
-} 
 
 .twoColumns{
     width: 50%;
@@ -154,23 +141,19 @@ section{
 }
 
 
-article{
+/* article{
     display:flex;
     width: 100%;
     flex-wrap: wrap;
-}
+} */
 
 .responsiveCube{
     width: 100%;
-    flex-wrap: nowrap;
-    justify-content: center;
 }
 
 .bigCube{
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .smallCube{
