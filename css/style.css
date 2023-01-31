@@ -94,19 +94,38 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.fontSmall{
+    font-size: 13px;
+}
+
+/*colori*/
+.bgWhite{
+    background-color: white;
+}
+
 /*header*/
 
 header{
     position: fixed;
     width: 100%;
+    height: 60px;
     top: 0;
     left: 0;
     z-index: 999;
 }
 
-.navBar{
-    justify-content: center;
-    /* align-items: center; */
+.logo{
+    width: 110px;
+}
+
+header > ul{
+    list-style: none;
+    padding: 0 10px;
+}
+
+header > ul > li > a{
+    text-decoration: none;
+    padding: 0 15px;
 }
 
 /* .btn{
