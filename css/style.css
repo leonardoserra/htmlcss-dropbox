@@ -112,6 +112,9 @@ body{
 .bold{
     font-weight: bold;
 }
+.paddingTopBottom20{
+    padding: 20px 0;
+}
 
 /*colori*/
 .bgWhite{
