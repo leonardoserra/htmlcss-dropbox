@@ -103,6 +103,10 @@ body{
     background-color: white;
 }
 
+.bgAzure{
+    background-color:rgb( 180, 207, 231);
+}
+
 /*header*/
 
 header{
@@ -145,7 +149,7 @@ main{
 }
 
 .bigContainer{
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 
@@ -156,7 +160,9 @@ main{
 
 
 .bigTitle{
-    font-size: 40px;
+    font-size: 65px;
+    padding:25px;
+    line-height: 1.3em;
 }
 
 
