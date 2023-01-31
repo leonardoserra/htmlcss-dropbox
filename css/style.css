@@ -34,6 +34,14 @@
     flex-wrap: nowrap;
 }
 
+.pRelative{
+    position: relative;
+}
+
+.pAbsolute{
+    position: absolute;
+}
+
 .w10{
     width: 10%;
 }
@@ -92,9 +100,7 @@
     border: 1px solid rgb( 180, 207, 231);
 
 }
-.tabella{
-    border: 1px solid rgb( 180, 207, 231);
-}
+
 
 .scroll{
     overflow: auto;
@@ -283,6 +289,32 @@ main{
 }
 .offer li{
     padding: 20px 0;
+}
+
+#tabella4{
+    margin-top: 40px;
+}
+.tabella{
+    border: 1px solid rgb( 180, 207, 231);
+}
+
+.tabella .pRelative{
+    height: 200px;
+}
+
+.tabella .pRelative .offerSquare.pAbsolute{
+    top: 50px;
+    left: 50px;
+}
+
+.tabella .pRelative div.pAbsolute{
+    bottom: 20px;
+    left: 50px;
+}
+
+.tabella .pRelative a.pAbsolute{
+    top: 50px;
+    right: 50px;
 }
 
 .bigCube{
