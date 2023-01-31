@@ -113,11 +113,17 @@ body{
 .fontSmall{
     font-size: 14px;
 }
+
 .bold{
     font-weight: bold;
 }
+
 .paddingTopBottom20{
     padding: 20px 0;
+}
+
+.paddingTopBottom100{
+    padding: 100px 0;
 }
 
 /*colori*/
@@ -165,6 +171,9 @@ body{
     background-color: rgb(245, 245, 245);
 }
 
+.bgBlack{
+    background-color: rgb(0,0,0);
+}
 .whiteFont{
     color: white;
 }
@@ -422,8 +431,8 @@ main{
     color: rgb(97, 5, 40);
 }
 
-#faq h2, #faq div{
-    border-bottom: 1px solid black;
+#faq > div > div{
+    border-top: 1px solid black;
 }
 
 .absoluteTopRight{
