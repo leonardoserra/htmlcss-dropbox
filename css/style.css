@@ -317,6 +317,17 @@ main{
     right: 50px;
 }
 
+#partnerFinder{
+    padding: 50px 0;
+}
+
+#partnerFinder .info{
+    padding: 50px;
+}
+#partnerFinder .info h2, #partnerFinder .info p{
+    padding-bottom: 50px;
+}
+
 .bigCube{
     width: calc(100% / 3);
     height: calc(100vw / 3);
