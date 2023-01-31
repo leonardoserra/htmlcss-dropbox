@@ -141,15 +141,6 @@ main{
 }
 
 
-article{
-    display:flex;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-.responsiveCube{
-    width: 100%;
-}
 
 .bigCube{
     width: calc(100% / 3);
