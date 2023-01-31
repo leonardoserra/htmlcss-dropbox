@@ -422,13 +422,16 @@ main{
     color: rgb(97, 5, 40);
 }
 
-.question, .answer{
-    padding: 10px;
-}
-
-section h2.bottomBorder, .questionAnswer.bottomBorder{
+#faq h2, #faq div{
     border-bottom: 1px solid black;
 }
+
+.absoluteTopRight{
+    top: 12%;
+    right: 5%;
+}
+
+
 
 
 
