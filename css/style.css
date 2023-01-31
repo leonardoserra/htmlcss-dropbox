@@ -97,8 +97,6 @@
 
 .threeColumns{
     width: calc(100% / 3);
-    border: 1px solid rgb( 180, 207, 231);
-
 }
 
 
@@ -328,6 +326,15 @@ main{
     padding-bottom: 50px;
 }
 
+.titolino{
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.threeColumns.centerTextAlignContainer p{
+    padding: 20px 0;
+}
+
 .bigCube{
     width: calc(100% / 3);
     height: calc(100vw / 3);
@@ -346,6 +353,9 @@ section h2.bottomBorder, .questionAnswer.bottomBorder{
     border-bottom: 1px solid black;
 }
 
+.threeColumns.centerTextAlignContainer{
+   padding: 0 25px;
+}
 
 /*fine main*/
 
