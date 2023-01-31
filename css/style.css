@@ -457,6 +457,19 @@ footer .bigContainer > ul{
     list-style: none;
 }
 
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer  ul  li:first-child{
+    padding: 10px 0;
+}
+
+footer ul{
+    line-height: 2em;
+}
+
 
 
 

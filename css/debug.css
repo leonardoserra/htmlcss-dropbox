@@ -75,13 +75,13 @@ footer{
 }
 
 footer nav{
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 footer nav > ul{
-    border: 1px solid white;
-    background-color: blueviolet;
-}
+    /* border: 1px solid white;*/
+    /* background-color: blueviolet; */
+} 
 div.footerBottom{
     line-height: 3em;
     border: 1px solid greenyellow;
