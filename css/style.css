@@ -418,6 +418,10 @@ main{
     padding: 30px;
 }
 
+#provaGratuita h2{
+    color: rgb(97, 5, 40);
+}
+
 .question, .answer{
     padding: 10px;
 }
@@ -425,6 +429,7 @@ main{
 section h2.bottomBorder, .questionAnswer.bottomBorder{
     border-bottom: 1px solid black;
 }
+
 
 
 /*fine main*/
