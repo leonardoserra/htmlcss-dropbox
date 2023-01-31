@@ -183,9 +183,11 @@ main{
     font-weight: 800;
 }
 
+#jumbotron{
+    transform: translateY(100px);
+}
 #jumbotron .jumboimg {
     width: 100%;
-    transform: translateY(100px);
 }
 
 .info{
@@ -198,12 +200,19 @@ main{
     width: 50px;
     height: 50px;
     align-self: flex-start;
+    transform: translateY(-80px);
 }
 
 
 #centralSection{
     padding-top: 150px;
 }
+
+.mediumTitle{
+    font-size: 40px;
+    line-height: 5em;
+}
+
 
 .bigCube{
     width: calc(100% / 3);
