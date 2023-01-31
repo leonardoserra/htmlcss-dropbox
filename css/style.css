@@ -81,7 +81,8 @@
 
 .threeColumns{
     width: calc(100% / 3);
-    padding: 20px;
+    border: 1px solid rgb( 180, 207, 231);
+
 }
 
 .scroll{
@@ -97,6 +98,9 @@ body{
 .fontSmall{
     font-size: 14px;
 }
+.bold{
+    font-weight: bold;
+}
 
 /*colori*/
 .bgWhite{
@@ -105,6 +109,10 @@ body{
 
 .bgAzure{
     background-color:rgb( 180, 207, 231);
+}
+
+.greyFont{
+    color: rgb( 143, 141, 141);
 }
 
 /*header*/
@@ -152,31 +160,6 @@ header > ul > li > a{
 .whiteBtn{
     background-color: rgb(255, 255, 255);
     color: rgb(10, 10, 10);
-}
-
-.cerchioBlu{
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    border: 7px solid rgb(0 , 97, 255);
-    border-radius: 50%;
-    vertical-align:middle ;
-}
-
-.cerchio{
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    border: 5px solid rgb(205, 205, 209);
-    border-radius: 50%;
-    vertical-align:middle ;
-}
-
-#radioButtons{
-    padding: 0px 0 50px 0;
-}
-.opzione{
-    padding: 0 50px 0 0;
 }
 
 /*fine header*/
@@ -236,6 +219,43 @@ main{
     line-height: 5em;
 }
 
+
+.cerchioBlu{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 7px solid rgb(0 , 97, 255);
+    border-radius: 50%;
+    vertical-align:middle ;
+}
+
+.cerchio{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 5px solid rgb(205, 205, 209);
+    border-radius: 50%;
+    vertical-align:middle ;
+}
+
+#radioButtons{
+    padding: 0px 0 50px 0;
+}
+
+.opzione{
+    padding: 0 50px 0 0;
+}
+
+.businessLabel{
+    border-bottom:1px solid rgb( 180, 207, 231) ;
+    text-align: center;
+    padding:10px 0;
+}
+
+.offer{
+    padding: 20px;
+    line-height: 30px;
+}
 
 .bigCube{
     width: calc(100% / 3);

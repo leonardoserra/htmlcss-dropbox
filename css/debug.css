@@ -51,8 +51,8 @@ section{
 
 .threeColumns{
     height: 200px;
-    background-color: coral;
-    border: 1px solid rgb(30, 0, 255);
+    /* background-color: coral; */
+    
 }
 
 .bigCube{
