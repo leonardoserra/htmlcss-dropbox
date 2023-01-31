@@ -121,12 +121,48 @@ body{
 }
 
 /*colori*/
+.bgLightGreen{
+    background-color: rgb(162, 211, 155);
+}
+
+.bgBrown{
+    background-color: rgb(97, 8 ,43);
+}
+
+.bgRed{
+    background-color: rgb(213, 0, 31);
+}
+
+.bgGrey{
+    background-color: rgb(180, 208, 231);
+}
+
+.bgCyan{
+    background-color: rgb(0, 147, 206);
+}
+
+.bgScarlett{
+    background-color: rgb(255, 28, 28);
+}
+
+.bgBlueElectric{
+    background-color: rgb(13, 36, 129);
+}
+
+.bgYellow{
+    background-color: rgb(255, 216, 48);
+}
+
 .bgWhite{
     background-color: white;
 }
 
 .bgAzure{
     background-color:rgb( 180, 207, 231);
+}
+
+.bgLightGrey{
+    background-color: rgb(245, 245, 245);
 }
 
 .greyFont{
