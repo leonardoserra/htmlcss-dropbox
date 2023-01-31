@@ -80,6 +80,10 @@ width: 10%;
     padding: 20px;
 }
 
+.scroll{
+    overflow: auto;
+}
+
 
 body{
     position: relative;
@@ -152,9 +156,7 @@ main{
    height: 50%;
 }
 
-.scroll{
-    overflow: auto;
-}
+
 
 
 .question, .answer{
@@ -162,7 +164,7 @@ main{
 }
 
 section h2.bottomBorder, .questionAnswer.bottomBorder{
-    border-bottom: 3px dotted black;
+    border-bottom: 1px solid black;
 }
 
 
@@ -172,9 +174,6 @@ section h2.bottomBorder, .questionAnswer.bottomBorder{
 
 footer nav{
     padding-top:50px;
-    width: 100%;
-    display:flex;
-    justify-content: space-between;
 }
 
 footer .bigContainer > ul{
