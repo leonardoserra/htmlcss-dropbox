@@ -74,9 +74,6 @@
     width: 100%;
 }
 
-.info{
-    /* padding: 20px; */
-}
 .twoColumns{
     width: 50%;
     padding: 20px;
@@ -169,12 +166,12 @@ main{
 }
 
 .bigContainer{
-    width: 75%;
+    width: 70%;
     margin: auto;
 }
 
 .smallContainer{
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
@@ -183,23 +180,24 @@ main{
     font-size: 65px;
     padding:25px;
     line-height: 1.3em;
+    font-weight: 800;
 }
 
 #jumbotron img {
     width: 100%;
 }
 
-.twoColumns{
-    width: 50%;
+.info{
     padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.threeColumns{
-    width: calc(100% / 3);
-    padding: 20px;
+.arrow{
+    width: 50px;
+    height: 50px;
+    align-self: flex-start;
 }
-
-
 
 .bigCube{
     width: calc(100% / 3);
@@ -210,9 +208,6 @@ main{
    width: 50%;
    height: 50%;
 }
-
-
-
 
 .question, .answer{
     padding: 10px;
