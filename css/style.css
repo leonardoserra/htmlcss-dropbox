@@ -6,6 +6,10 @@
 }
 /*general rules*/
 
+.dBlock{
+    display: block;
+}
+
 .dFlex{
     display: flex;
 }
@@ -257,8 +261,17 @@ main{
 }
 
 .offer{
-    padding: 20px;
-    line-height: 30px;
+    padding: 30px;
+}
+
+.offerSquare{
+    line-height: 2rem;
+}
+.centerTextAlignContainer{
+    text-align: center;
+}
+.offer li{
+    padding: 20px 0;
 }
 
 .bigCube{
