@@ -84,9 +84,9 @@ footer nav > ul{
 } 
 div.footerBottom{
     line-height: 3em;
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
 }
 
 .debugBorder{
-    border: 1px dashed rgb(255, 47, 47);
+    /* border: 1px dashed rgb(255, 47, 47); */
 }

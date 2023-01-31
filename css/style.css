@@ -448,10 +448,6 @@ main{
 
 /*inizio footer*/
 
-footer nav{
-    padding-top:50px;
-}
-
 footer .bigContainer > ul{
     width: calc(100% / 5);
     list-style: none;
@@ -468,6 +464,10 @@ footer  ul  li:first-child{
 
 footer ul{
     line-height: 2em;
+}
+
+#footerBottom a{
+    color:rgb( 143, 141, 141);
 }
 
 
