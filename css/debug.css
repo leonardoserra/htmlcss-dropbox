@@ -9,27 +9,22 @@
     border: 1px solid yellow;
 } */
 
-nav{
-    width: 200px;
-    background-color: blue;
-    border: 1px solid green;
-}
 /*fine header*/
 
 
 /*main*/
 main{
-    background-color: rgb(23, 131, 83);
+    /* background-color: rgb(23, 131, 83); */
 }
 
 main div.bigContainer{
-    height: 500px;
-    border: 1px solid blue;
+    /* height: 500px; */
+    /* border: 1px solid blue; */
 }
 
 section{
-    background-color: cornflowerblue;
-    border: 1px solid rgb(234, 0, 255);
+    /* background-color: cornflowerblue; */
+    /* border: 1px solid rgb(234, 0, 255); */
 }
 
 .bigTitle{
@@ -40,17 +35,17 @@ section{
 
 .w30{
     height: 200px;
-    border: 1px solid rgb(234, 0, 255);
+    /* border: 1px solid rgb(234, 0, 255); */
     /* background-color: rgb(151, 160, 95); */
 }
 .w70{
-    height: 200px;
-    border: 1px solid rgb(234, 0, 255);
+    /* height: 200px; */
+    /* border: 1px solid rgb(234, 0, 255); */
     /* background-color: cadetblue; */
 }
 
 .w100{
-    border: 1px solid rgb(234, 0, 255);
+    /* border: 1px solid rgb(234, 0, 255); */
     /* background-color: rgb(144, 18, 13); */
 }
 
@@ -90,4 +85,8 @@ footer nav > ul{
 div.footerBottom{
     line-height: 3em;
     border: 1px solid greenyellow;
+}
+
+.debugBorder{
+    border: 1px dashed rgb(255, 47, 47);
 }

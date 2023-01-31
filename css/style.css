@@ -27,7 +27,7 @@
 }
 
 .w10{
-width: 10%;
+    width: 10%;
 }
 
 .w20{
@@ -74,6 +74,9 @@ width: 10%;
     width: 100%;
 }
 
+.info{
+    /* padding: 20px; */
+}
 .twoColumns{
     width: 50%;
     padding: 20px;
@@ -135,9 +138,26 @@ header > ul > li > a{
 
 .btn{
     padding: 5px 10px;
+    text-decoration: none;
+}
+
+.blueBtn{
     background-color: rgb(0 , 97, 255);
     color: white;
 }
+
+.transparentBtn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 10, 10);
+    border: 1px solid rgb(10, 10, 10);
+}
+
+.whiteBtn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 10, 10);
+}
+
+
 
 /*fine header*/
 
@@ -145,7 +165,7 @@ header > ul > li > a{
 
 /*main*/
 main{
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 .bigContainer{
@@ -165,6 +185,9 @@ main{
     line-height: 1.3em;
 }
 
+#jumbotron img {
+    width: 100%;
+}
 
 .twoColumns{
     width: 50%;
