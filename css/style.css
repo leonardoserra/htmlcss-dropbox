@@ -238,7 +238,7 @@ main{
 
 .mediumTitle{
     font-size: 40px;
-    line-height: 5em;
+    line-height: 1.5em;
 }
 
 
@@ -331,9 +331,22 @@ main{
     line-height: 35px;
 }
 
-.threeColumns.centerTextAlignContainer p{
-    padding: 20px 0;
+#functions .threeColumns{
+    padding: 50px 30px;
 }
+
+#functions p{
+    padding: 20px 20px;
+}
+
+#finalSlogan{
+    padding: 100px 0;
+}
+
+#finalSlogan h2{
+   padding-bottom: 50px; 
+}
+
 
 .bigCube{
     width: calc(100% / 3);
@@ -353,9 +366,6 @@ section h2.bottomBorder, .questionAnswer.bottomBorder{
     border-bottom: 1px solid black;
 }
 
-.threeColumns.centerTextAlignContainer{
-   padding: 0 25px;
-}
 
 /*fine main*/
 
