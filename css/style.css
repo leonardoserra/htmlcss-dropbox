@@ -92,6 +92,9 @@
     border: 1px solid rgb( 180, 207, 231);
 
 }
+.tabella{
+    border: 1px solid rgb( 180, 207, 231);
+}
 
 .scroll{
     overflow: auto;
@@ -270,6 +273,7 @@ main{
 
 .offerSquare{
     line-height: 2rem;
+    padding-bottom: 10px;
 }
 .centerTextAlignContainer{
     text-align: center;
