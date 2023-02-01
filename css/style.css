@@ -10,6 +10,10 @@
     display: block;
 }
 
+.dInlineBlock{
+    display: Inline-block;
+}
+
 .dFlex{
     display: flex;
 }
@@ -127,6 +131,7 @@ body{
 }
 
 /*colori*/
+
 .bgLightGreen{
     background-color: rgb(162, 211, 155);
 }
@@ -240,7 +245,7 @@ header > ul > li > a{
 
 /*main*/
 main{
-    padding-top: 60px;
+    /* padding-top: 60px; */
 }
 
 .bigContainer{
@@ -262,23 +267,23 @@ main{
 }
 
 #jumbotron{
-    transform: translateY(100px);
+    transform: translateY(175px);
 }
 #jumbotron .jumboimg {
     width: 100%;
 }
 
+.marginBottom20{
+    margin-bottom: 20px;
+}
+
 .info{
     padding: 0 20px 20px 20px;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 .arrow{
     width: 50px;
     height: 50px;
-    align-self: flex-start;
-    transform: translateY(-80px);
 }
 
 
