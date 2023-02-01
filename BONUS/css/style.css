@@ -464,6 +464,8 @@ header > ul > li > a{
     color: rgb(97, 5, 40);
 }
 
+
+/*faq section*/
 #faq > div > div{
     border-top: 1px solid black;
 }
@@ -472,6 +474,27 @@ header > ul > li > a{
     top: 12%;
     right: 5%;
 }
+
+/*animation e transition*/
+
+.hidden{
+    height: 0;
+    transition: height;
+}
+
+.freccetta{
+    transition: transform;
+}
+
+.questionAnswer:hover > .hidden{
+    height:100%;
+}
+
+.questionAnswer:hover > .freccetta{
+    transform: rotate(180deg);
+}
+
+
 
 
 
