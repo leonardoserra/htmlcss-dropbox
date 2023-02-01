@@ -478,16 +478,16 @@ header > ul > li > a{
 /*animation e transition*/
 
 .hidden{
-    height: 0;
-    transition: height;
+    display: none;
+    transition: display;
+}
+
+.questionAnswer:hover > .hidden{
+    display: block;
 }
 
 .freccetta{
     transition: transform;
-}
-
-.questionAnswer:hover > .hidden{
-    height:100%;
 }
 
 .questionAnswer:hover > .freccetta{
