@@ -271,13 +271,15 @@ header > ul > li > a{
 
 
 .bigContainer{
-    width: 70%;
+    width: 100%;
     margin: auto;
+    max-width: 1170px;
 }
 
 .smallContainer{
-    width: 60%;
+    width: 100%;
     margin: auto;
+    max-width: 1090px;
 }
 
 .bigTitle{
