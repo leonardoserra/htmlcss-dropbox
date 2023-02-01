@@ -533,6 +533,9 @@ footer > nav > ul.hoverBorder:hover{
     border-bottom: 1px solid rgb(132, 128, 128);
 }
 
+footer > nav > ul > li:hover{
+    text-decoration: underline;
+}
 
 
 
