@@ -321,6 +321,7 @@ header > ul > li > a{
     border: 7px solid rgb(0 , 97, 255);
     border-radius: 50%;
     vertical-align:middle ;
+    transition:color 1s, box-shadow 1s, opacity 1s;
 }
 
 .cerchio{
@@ -330,7 +331,17 @@ header > ul > li > a{
     border: 5px solid rgb(205, 205, 209);
     border-radius: 50%;
     vertical-align:middle ;
+    transition:color 1s, box-shadow 1s, opacity 1s;
+
 }
+
+
+
+.cerchio:hover, .cerchioBlu:hover{
+    opacity: 0.8;
+    box-shadow: 0.5px 1px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
 
 #radioButtons{
     padding: 0px 0 50px 0;
