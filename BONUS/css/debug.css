@@ -1,0 +1,92 @@
+/*debug rulez*/
+/* *{
+    text-align: center;
+} */
+
+/*header*/
+/* header {
+    background-color: red;
+    border: 1px solid yellow;
+} */
+
+/*fine header*/
+
+
+/*main*/
+main{
+    /* background-color: rgb(23, 131, 83); */
+}
+
+main div.bigContainer{
+    /* height: 500px; */
+    /* border: 1px solid blue; */
+}
+
+section{
+    /* background-color: cornflowerblue; */
+    /* border: 1px solid rgb(234, 0, 255); */
+}
+
+.bigTitle{
+    /* height: 200px; */
+    /* border: 1px solid rgb(234, 0, 255); */
+    /* background-color: cadetblue; */
+}
+
+.w30{
+    /* height: 200px; */
+    /* border: 1px solid rgb(234, 0, 255); */
+    /* background-color: rgb(151, 160, 95); */
+}
+.w70{
+    /* height: 200px; */
+    /* border: 1px solid rgb(234, 0, 255); */
+    /* background-color: cadetblue; */
+}
+
+.w100{
+    /* border: 1px solid rgb(234, 0, 255); */
+    /* background-color: rgb(144, 18, 13); */
+}
+
+.threeColumns{
+    /* height: 200px; */
+    /* background-color: coral; */
+    
+}
+
+.bigCube{
+    /* border: 1px solid rgb(255, 0, 0); */
+    /* background-color: rgb(42, 124, 165); */
+}
+
+.smallCube{
+    /* background-color: rgb(165, 223, 19); */
+    /* border: 1px solid white; */
+}
+/*fine main*/
+
+
+/*inizio footer*/
+
+footer{
+    /* height: 500px; */
+    /* background-color: pink; */
+}
+
+footer nav{
+    /* border: 1px solid white; */
+}
+
+footer nav > ul{
+    /* border: 1px solid white;*/
+    /* background-color: blueviolet; */
+} 
+div.footerBottom{
+    line-height: 3em;
+    /* border: 1px solid greenyellow; */
+}
+
+.debugBorder{
+    /* border: 1px dashed rgb(255, 47, 47); */
+}
