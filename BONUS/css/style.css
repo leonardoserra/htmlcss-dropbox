@@ -234,9 +234,17 @@ header > ul > li > a{
     color: rgb(10, 10, 10)
 }
 
+/*regole buttons*/
+
 .btn{
     padding: 5px 10px;
     text-decoration: none;
+    transition:color 1s, box-shadow 1s, opacity 1s;
+}
+
+.btn:hover{
+    opacity: 0.8;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .blueBtn{
